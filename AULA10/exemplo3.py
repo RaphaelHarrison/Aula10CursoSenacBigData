@@ -5,7 +5,7 @@ try:
 
     media_por_funcionario = total_produzido / funcionarios
     print(f"Média por funcionário: {media_por_funcionario:.2f}")
-except ValueErroralueError:
+except ValueError:
     print("Favor informar um número.")
 except ZeroDivisionError:
-    print("Funcionário não pode ser Zero.")
+        print("Funcionário não pode ser Zero.")
